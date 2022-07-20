@@ -24,5 +24,7 @@ def square_or_square_root(arr):
         else:
             new_arr.append(number*number)
             
-    return new_arr
-            
+    print(new_arr) 
+
+
+square_or_square_root([4,3,9,7,2,1])
