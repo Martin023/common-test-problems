@@ -3,3 +3,11 @@
 def no_space(x):
     #your code here
    return x.replace(' ','')
+
+
+
+# in javascript
+
+# function noSpace(x){
+#   return x.replace(/\s/g, '');
+# }
