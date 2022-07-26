@@ -26,3 +26,11 @@ def areYouPlayingBanjo(name):
 
 
 # areYouPlayingBanjo("kevin") 
+
+####################################################################3
+
+# optimised javascript solution
+
+# function areYouPlayingBanjo(name) {
+#   return name + (name[0].toLowerCase() == 'r' ? ' plays' : ' does not play') + " banjo";
+# }
