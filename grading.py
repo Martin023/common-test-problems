@@ -11,3 +11,21 @@ def grade(exam,projects):
         return 0
 
 print (grade(75,3))
+
+
+#################javascript#################
+
+function grading (exam, projects){
+    if (exam > 90 || projects >10){
+        return 100;
+    }
+    if (exam > 75 || projects >5){
+        return 100;
+    }
+    if (exam > 90 || projects >= 2){
+        return 100;
+    }
+
+    return 0;
+}
+console.log(grading(67, 10))
